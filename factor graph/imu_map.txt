@@ -1,0 +1,8 @@
+传感器编号	    物理位置	SMPL-X 索引	    VMC 标准名称 (发给 Warudo)	            作用
+IMU 0	    盆骨 (Root)	        0	        Hips	                    核心：决定全身位移和朝向
+IMU 1	    胸腔 (Thorax)	    12	        Spine 或 Chest	                躯干弯曲
+IMU 2/3	        左右大臂	16 / 17	    LeftUpperArm / RightUpperArm	    肩关节转动
+IMU 4/5	        左右小臂	18 / 19 	LeftLowerArm / RightLowerArm	    肘关节转动
+IMU 6/7	        左右手掌	20 / 21	    LeftHand / RightHand	            手腕翻转（非常关键）
+IMU 8/9	        左右大腿	1 / 2	    LeftUpperLeg / RightUpperLeg	    胯部动作
+IMU 10/11	    左右小腿	4 / 5	    LeftLowerLeg / RightLowerLeg	    膝盖弯曲
